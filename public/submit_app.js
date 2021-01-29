@@ -56,5 +56,8 @@ async function Submit (){
     console.log(processeddata)
 
     alert('Media Uploaded Successfully!')
+    document.getElementById('submit-button').style.display = 'none'
+    document.getElementById('display-image').src = ""
+    document.getElementById('file-chosen').textContent = 'Empty'
 }
 
